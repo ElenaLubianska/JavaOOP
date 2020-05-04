@@ -35,7 +35,7 @@ public class Triangle extends Shape {
 
     @Override
     public double getPerimetr() {
-        return a.getDistance(b) + b.getDistance(c) + c.getDistance(a);
+        return Math.round(a.getDistance(b) + b.getDistance(c) + c.getDistance(a));
     }
 
     @Override

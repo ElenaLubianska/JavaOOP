@@ -12,6 +12,7 @@ public class Main {
         Foursquare foursquare = new Foursquare(a, b, c, d);
         Trapeze trapeze = new Trapeze(a, b, c, d, k);
         System.out.println(trapeze.getArea());
+        System.out.println(triangle.getPerimetr());
 
     }
 }
